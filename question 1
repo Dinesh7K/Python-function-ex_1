@@ -1,0 +1,12 @@
+def fun(n):
+    
+    if(n>=0):
+        print("POSITIVE")
+    elif(n==0):
+        print("NEUTRAL")
+    else:
+        print("NEGATIVE")
+result1=fun(5)
+result2=fun(-3)
+result3=fun(0)
+print(result1,result2,result3)
