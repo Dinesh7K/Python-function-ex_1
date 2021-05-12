@@ -1,0 +1,15 @@
+# Create a function to compute sum of digits. Call this sum of digits function 
+to find the sum of digits of numbers ranges from 1001 to 22000.
+import random
+
+
+def sum_of_digits(n):
+    print(n)
+    s=0;
+    while(n!=0):
+        d=n%10
+        s=s+d;
+        n=n//10
+    return s
+result=sum_of_digits(random.randint(1001,22000))
+print(result)
